@@ -10,6 +10,11 @@ h1 {
     color:grey;
 }
 
+h2 {
+    font-size: 18px;
+    color: white;
+}
+
 .container{
     margin: auto;
     width: 960px;
@@ -17,6 +22,14 @@ h1 {
 }
 
 .header, .nav {
+    text-align: center;
+    background-color:#ebebeb;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 10px;
     text-align: center;
     background-color:#ebebeb;
     padding: 15px;
@@ -46,8 +59,9 @@ h1 {
 
 .article {
     background-color: grey;
-    height: 205px;
+    height: 190px;
     margin-top: 60px;
+    padding: 10px;
 
 }
 
@@ -56,4 +70,10 @@ h1 {
     margin: auto;
     width: 960px;
 
+}
+
+.in-article{
+    background-color:white;
+    padding:5px;
+    margin-top:5px;
 }
